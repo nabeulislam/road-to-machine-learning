@@ -14,6 +14,28 @@ Learn to classify data into categories using various classification algorithms.
 - Evaluation Metrics for Classification
 - Real-world Classification Projects
 
+## ML for beginners curriculum map
+
+| Topic | Where to study |
+|-------|----------------|
+| Logistic regression | [Classification guide](classification.md#logistic-regression) |
+| K-Nearest Neighbours (distance-based) | [KNN](classification.md#k-nearest-neighbors-knn) |
+| Naive Bayes (probabilistic) | [Naive Bayes](classification.md#naive-bayes) |
+| EDA and data cleaning | [EDA guide](../01-python-for-data-science/04-exploratory-data-analysis.md#ml-for-beginners-curriculum-map-this-guide) |
+| Feature relationships (scatter, covariance, correlation) | [Feature relationship analysis](classification.md#feature-relationship-analysis) |
+| Feature engineering and preprocessing | [Feature engineering](../07-feature-engineering/feature-engineering.md#ml-for-beginners-curriculum-map-this-guide) |
+| Projects implementing algorithms | [Beginner projects](../16-projects-beginner/README.md#ml-for-beginners-curriculum-map-projects) |
+
+## Advanced machine learning curriculum map
+
+| Topic | Where to study |
+|-------|----------------|
+| Decision tree classification; entropy and information gain | [Classification guide](classification.md#decision-trees), [Entropy and rules](classification.md#entropy-information-gain-and-rule-based-intuition) |
+| Rule-based intuition; overfitting (tree depth) | [Entropy section](classification.md#entropy-information-gain-and-rule-based-intuition), [Decision trees](classification.md#decision-trees) |
+| Random Forest; tree vs forest | [Random forests](classification.md#random-forests), [Comparison](classification.md#decision-tree-versus-random-forest) |
+| SVM; margin, hyperplane, kernels | [SVM](classification.md#support-vector-machines-svm), [Margins and kernels](classification.md#margin-hyperplane-and-kernel-intuition) |
+| Supervised model comparison; training and accuracy | [Model comparison](classification.md#supervised-model-training-and-performance-comparison), [Metrics](classification.md#evaluation-metrics) |
+
 ##  Topics Covered
 
 ### 1. Logistic Regression

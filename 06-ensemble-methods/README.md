@@ -10,6 +10,13 @@ Learn to combine multiple models for better performance.
 - Voting Classifiers
 - When to use Ensemble Methods
 
+## Advanced machine learning curriculum map
+
+| Topic | Where to study |
+|-------|----------------|
+| Random Forest and bagging | [Ensemble methods guide](ensemble-methods.md#bagging) |
+| Boosting, stacking, voting | [Boosting](ensemble-methods.md#boosting), [Stacking](ensemble-methods.md#stacking), [Voting](ensemble-methods.md#voting) |
+
 ##  Topics Covered
 
 ### 1. Bagging

@@ -2,18 +2,54 @@
 
 Comprehensive guide to classification algorithms for predicting categories.
 
+## ML for beginners curriculum map (this guide)
+
+Checklist for the **classification** part of the beginner path; sections below include **runnable sklearn examples**.
+
+- **Logistic regression** → [Logistic regression](#logistic-regression)
+- **K-Nearest Neighbours (distance-based)** → [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn)
+- **Naive Bayes (probabilistic)** → [Naive Bayes](#naive-bayes)
+- **EDA and cleaning (workflow)** → [EDA guide](../01-python-for-data-science/04-exploratory-data-analysis.md#ml-for-beginners-curriculum-map-this-guide)
+- **Feature relationships** (scatter, covariance, correlation) → [Feature relationship analysis](#feature-relationship-analysis)
+- **Feature engineering and ML-ready preprocessing** → [Feature engineering guide](../07-feature-engineering/feature-engineering.md#ml-for-beginners-curriculum-map-this-guide)
+- **Descriptive stats and sampling** → [Introduction to ML](../02-introduction-to-ml/introduction-to-ml.md#descriptive-statistics-and-sampling-foundations)
+
+## Advanced machine learning curriculum map (this guide)
+
+**Trees, SVM, ensembles, and supervised comparison** (clustering track: [Unsupervised learning](../08-unsupervised-learning/unsupervised-learning.md#advanced-machine-learning-curriculum-map-this-guide); Random Forest theory: [Ensemble methods](../06-ensemble-methods/ensemble-methods.md#advanced-machine-learning-curriculum-map-this-guide)).
+
+- **Decision tree classification** → [Decision trees](#decision-trees)
+- **Entropy and information gain** → [Entropy, information gain, and rule-based intuition](#entropy-information-gain-and-rule-based-intuition)
+- **Rule-based learning intuition** (readable if–then rules from trees) → [Same section](#entropy-information-gain-and-rule-based-intuition)
+- **Overfitting control (tree depth tuning)** → [Decision trees](#decision-trees) (hyperparameters), [Tree vs forest comparison](#decision-tree-versus-random-forest)
+- **Random Forest ensemble learning** → [Random forests](#random-forests)
+- **Decision tree vs Random Forest** → [Decision tree versus random forest](#decision-tree-versus-random-forest)
+- **SVM fundamentals; margin, hyperplane, and kernel intuition** → [Support vector machines](#support-vector-machines-svm), [Margins, hyperplanes, and kernels](#margin-hyperplane-and-kernel-intuition)
+- **Supervised model performance comparison; training and accuracy** → [Supervised model training and performance comparison](#supervised-model-training-and-performance-comparison), [Evaluation metrics](#evaluation-metrics)
+
 ## Table of Contents
 
+- [ML for beginners curriculum map (this guide)](#ml-for-beginners-curriculum-map-this-guide)
+- [Advanced machine learning curriculum map (this guide)](#advanced-machine-learning-curriculum-map-this-guide)
 - [Introduction to Classification](#introduction-to-classification)
+- [Feature relationship analysis](#feature-relationship-analysis)
 - [Logistic Regression](#logistic-regression)
 - [Decision Trees](#decision-trees)
+- [Entropy, information gain, and rule-based intuition](#entropy-information-gain-and-rule-based-intuition)
 - [Random Forests](#random-forests)
+- [Decision tree versus random forest](#decision-tree-versus-random-forest)
 - [Support Vector Machines (SVM)](#support-vector-machines-svm)
+- [Margin, hyperplane, and kernel intuition](#margin-hyperplane-and-kernel-intuition)
 - [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn)
 - [Naive Bayes](#naive-bayes)
 - [Multi-Class Classification Strategies](#multi-class-classification-strategies)
 - [Evaluation Metrics](#evaluation-metrics)
+- [Supervised model training and performance comparison](#supervised-model-training-and-performance-comparison)
+- [Bias Auditing and Fairness in Classification](#bias-auditing-and-fairness-in-classification)
 - [Practice Exercises](#practice-exercises)
+- [Algorithm Comparison](#algorithm-comparison)
+- [Key Takeaways](#key-takeaways)
+- [Next Steps](#next-steps)
 
 ---
 
@@ -54,6 +90,42 @@ Classification predicts categorical labels/classes. Unlike regression (continuou
 
 ---
 
+## Feature relationship analysis
+
+Before fitting classifiers, inspect how **features relate to each other and to the label** using scatter plots, **covariance**, and **correlation** (linear association).
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.datasets import load_iris
+
+iris = load_iris(as_frame=True)
+df = iris.frame  # features + target
+
+print(df.iloc[:, :4].corr())   # Pearson correlation between numeric features
+print(df.iloc[:, :4].cov())    # covariance matrix
+
+# Scatter: two features colored by class
+fig, ax = plt.subplots(figsize=(6, 4))
+for code, name in enumerate(iris.target_names):
+    sub = df[df["target"] == code]
+    ax.scatter(
+        sub["petal length (cm)"],
+        sub["petal width (cm)"],
+        alpha=0.6,
+        label=name,
+    )
+ax.set_xlabel("Petal length (cm)")
+ax.set_ylabel("Petal width (cm)")
+ax.legend(title="species")
+ax.set_title("Feature scatter by class (Iris)")
+plt.tight_layout()
+plt.show()
+```
+
+---
+
 ## Logistic Regression
 
 ### Why "Logistic"?
@@ -64,6 +136,10 @@ Uses logistic (sigmoid) function to map predictions to probabilities [0, 1].
 ```
 σ(z) = 1 / (1 + e^(-z))
 ```
+
+### Log loss and maximum likelihood (same coin, two views)
+
+Logistic regression is trained by minimizing **log loss** (binary cross-entropy). That objective is equivalent to **maximum likelihood estimation (MLE)** for a Bernoulli model: you pick coefficients that make the observed labels as probable as possible under the sigmoid probabilities. For **multiclass** problems, the natural generalization is the **softmax** head and **categorical cross-entropy**, again an MLE story over one-hot labels. Libraries expose this as `LogisticRegression` with `multi_class='ovr'` or `'multinomial'`—the optimization details are handled for you, but the vocabulary shows up in papers and interviews.
 
 ### Binary Classification
 
@@ -299,6 +375,35 @@ tree.fit(X_train, y_train)
 
 ---
 
+## Entropy, information gain, and rule-based intuition
+
+**Entropy** `H` measures impurity of a node (bits of uncertainty). For discrete classes with proportions `p_i`:
+
+```
+H = -sum_i p_i * log2(p_i)
+```
+
+**Information gain (IG)** is the entropy drop after a split: parent entropy minus weighted child entropies. sklearn’s `criterion='entropy'` picks splits that maximize IG.
+
+**Rule-based intuition:** a decision tree is a nested set of **if–then** rules (e.g., “if petal length ≤ 2.45 then class A”). That is explicit **rule-based learning**: the model *is* the rule list, unlike a black-box neural net.
+
+```python
+import numpy as np
+
+def entropy(labels):
+    _, counts = np.unique(labels, return_counts=True)
+    p = counts / counts.sum()
+    return -np.sum(p * np.log2(p + 1e-12))
+
+# Example: pure node vs mixed node
+print("Pure:", entropy(np.array([0, 0, 0])))
+print("Mixed:", entropy(np.array([0, 0, 1, 1])))
+```
+
+**Overfitting control:** shallow `max_depth`, larger `min_samples_leaf`, and pruning (or switching to **Random Forest**) reduce overly specific rules that memorize training noise.
+
+---
+
 ## Random Forests
 
 ### How Random Forests Work
@@ -380,11 +485,85 @@ plt.show()
 
 ---
 
+## Decision tree versus random forest
+
+| Aspect | Single decision tree | Random forest |
+|--------|----------------------|---------------|
+| Variance | High (fragile to data noise) | Lower (averaged votes) |
+| Interpretability | Very high (one tree plot) | Lower (many trees) |
+| Typical overfitting | Easier to overfit | Often more stable |
+
+```python
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+
+X, y = load_iris(return_X_y=True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+depths = range(1, 15)
+tree_scores = []
+forest_scores = []
+for d in depths:
+    dt = DecisionTreeClassifier(max_depth=d, random_state=42)
+    dt.fit(X_train, y_train)
+    tree_scores.append(accuracy_score(y_test, dt.predict(X_test)))
+    rf = RandomForestClassifier(
+        n_estimators=100, max_depth=d, random_state=42
+    )
+    rf.fit(X_train, y_train)
+    forest_scores.append(accuracy_score(y_test, rf.predict(X_test)))
+
+print("depth | tree acc | RF acc")
+for d, a, b in zip(depths, tree_scores, forest_scores):
+    print(f"{d:5d} | {a:.3f}    | {b:.3f}")
+# Often: tree accuracy jumps then plateaus or drops (overfit); RF stays smoother.
+```
+
+---
+
 ## Support Vector Machines (SVM)
 
 ### How SVM Works
 
 Finds optimal decision boundary (maximum margin) between classes.
+
+### Margin, hyperplane, and kernel intuition
+
+- **Hyperplane:** in 2D, a line; in higher dimensions, a linear separator `w·x + b = 0` between classes.
+- **Margin:** distance from the hyperplane to the nearest training points (**support vectors**). SVM (hard/soft margin) tries to **maximize** this gap for better generalization.
+- **Kernels:** map features into a space where a **linear** hyperplane separates classes; **RBF** is smooth local influence, **poly** allows curved polynomial boundaries, **linear** is no lift (good when truly linearly separable after scaling).
+
+```python
+# Optional: visualize linear SVM margin in 2D (first two Iris features)
+from sklearn.svm import SVC
+from sklearn.datasets import load_iris
+import numpy as np
+import matplotlib.pyplot as plt
+
+iris = load_iris()
+X = iris.data[:, :2]
+y = (iris.target != 0).astype(int)  # binary: class 0 vs rest
+clf = SVC(kernel="linear", C=1.0).fit(X, y)
+
+def plot_boundary(clf, X, y):
+    h = 0.02
+    x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+    y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+    xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
+    Z = clf.decision_function(np.c_[xx.ravel(), yy.ravel()]).reshape(xx.shape)
+    plt.contourf(xx, yy, Z, levels=[Z.min(), 0, Z.max()], cmap=plt.cm.coolwarm, alpha=0.5)
+    plt.contour(xx, yy, Z, colors=["k", "k", "k"], linestyles=["--", "-", "--"], levels=[-1, 0, 1])
+    plt.scatter(X[:, 0], X[:, 1], c=y, cmap=plt.cm.coolwarm, edgecolors="k")
+    plt.title("Linear SVM: decision regions and margin lines")
+    plt.xlabel(iris.feature_names[0])
+    plt.ylabel(iris.feature_names[1])
+
+plot_boundary(clf, X, y)
+plt.show()
+```
 
 ```python
 from sklearn.svm import SVC
@@ -1449,6 +1628,51 @@ print(f"Disparate Impact: {metric.disparate_impact()}")
 - **Mitigate bias** using post-processing or in-processing methods
 - **Document your findings** and mitigation strategies
 - **Fairness is a technical skill**, not just an ethical consideration
+
+---
+
+## Supervised model training and performance comparison
+
+Train several classifiers on the same split, then compare **test accuracy** (and extend with F1, ROC-AUC when classes are imbalanced).
+
+```python
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import accuracy_score
+import pandas as pd
+
+X, y = load_iris(return_X_y=True)
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.25, random_state=42, stratify=y
+)
+scaler = StandardScaler()
+X_train_s = scaler.fit_transform(X_train)
+X_test_s = scaler.transform(X_test)
+
+models = {
+    "LogisticRegression": LogisticRegression(max_iter=200),
+    "DecisionTree(max_depth=4)": DecisionTreeClassifier(max_depth=4, random_state=42),
+    "RandomForest": RandomForestClassifier(n_estimators=100, random_state=42),
+    "SVM(RBF)": SVC(kernel="rbf", random_state=42),
+    "KNN(k=5)": KNeighborsClassifier(n_neighbors=5),
+    "GaussianNB": GaussianNB(),
+}
+
+rows = []
+for name, clf in models.items():
+    clf.fit(X_train_s, y_train)
+    acc = accuracy_score(y_test, clf.predict(X_test_s))
+    rows.append({"model": name, "test_accuracy": acc})
+
+print(pd.DataFrame(rows).sort_values("test_accuracy", ascending=False).to_string(index=False))
+```
 
 ---
 

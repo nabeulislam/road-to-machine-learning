@@ -2,8 +2,16 @@
 
 Comprehensive guide to combining multiple models for better performance.
 
+## Advanced machine learning curriculum map (this guide)
+
+Links into sections **with code** below. Single-tree material: [Decision trees](../04-supervised-learning-classification/classification.md#decision-trees); **tree vs forest**: [comparison](../04-supervised-learning-classification/classification.md#decision-tree-versus-random-forest).
+
+- **Random Forest ensemble learning (bagging + trees)** → [Bagging](#bagging) (Random Forest lives here)
+- **Boosting, stacking, voting** → [Boosting](#boosting), [Stacking](#stacking), [Voting](#voting)
+
 ## Table of Contents
 
+- [Advanced machine learning curriculum map (this guide)](#advanced-machine-learning-curriculum-map-this-guide)
 - [Introduction to Ensembles](#introduction-to-ensembles)
 - [Bagging](#bagging)
 - [Boosting](#boosting)

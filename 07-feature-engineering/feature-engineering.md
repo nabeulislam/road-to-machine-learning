@@ -2,8 +2,17 @@
 
 Comprehensive guide to creating and selecting the best features for your models.
 
+## ML for beginners curriculum map (this guide)
+
+**Feature engineering and ML-ready preprocessing** turn raw tables into inputs models can learn from. Pair this guide with [EDA](../01-python-for-data-science/04-exploratory-data-analysis.md#ml-for-beginners-curriculum-map-this-guide) and the [beginner ML map](../02-introduction-to-ml/introduction-to-ml.md#ml-for-beginners-curriculum-map-this-guide).
+
+- **Scaling and encodings** → [Feature scaling](#feature-scaling), [Handling categorical variables](#handling-categorical-variables)
+- **Transforms and new features** → [Feature transformation](#feature-transformation), [Creating new features](#creating-new-features)
+- **Dimensionality and selection** → [Dimensionality reduction](#dimensionality-reduction), [Feature selection](#feature-selection)
+
 ## Table of Contents
 
+- [ML for beginners curriculum map (this guide)](#ml-for-beginners-curriculum-map-this-guide)
 - [Introduction](#introduction)
 - [Feature Selection](#feature-selection)
 - [Feature Transformation](#feature-transformation)
