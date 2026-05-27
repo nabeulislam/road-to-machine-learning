@@ -57,7 +57,7 @@
 | **BI Analyst** | Business Intelligence | 10-15 months | 00-01, 19-21 | [View Guide →](resources/career_roadmap_guide.md#business-intelligence-analyst) |
 | **Full-Stack AI Engineer** | End-to-end AI products | 12-24 months (15-25 hrs/week, parallel with blueprint) | 00-01, 19, 25 + [In-repo lessons](resources/full_stack_track/README.md) + [Blueprint A–H](resources/full_stack_ai_engineer_roadmap.md#phase-a-typescript-foundations) | [View Guide →](resources/career_roadmap_guide.md#full-stack-ai-engineer) |
 
-**Foundational side track:** [System Design for Beginners](system-design/README.md) — 21 short lessons on backend fundamentals (HTTP, TCP, DNS, caching, load balancing, CAP, sharding, message queues). Useful for ML Engineer, MLOps, Data Engineer, AI Engineer, and Full-Stack AI Engineer paths. Pairs with the [ML System Design Guide](resources/ml_system_design_guide.md), which applies these foundations to ML services.
+**Foundational side track:** [System Design for Beginners](system-design/README.md) — 22 short lessons on backend fundamentals (HTTP, TCP, DNS, caching, load balancing, CAP, sharding, message queues). Useful for ML Engineer, MLOps, Data Engineer, AI Engineer, and Full-Stack AI Engineer paths. Pairs with the [ML System Design Guide](resources/ml_system_design_guide.md), which applies these foundations to ML services.
 
 **Time assumptions:** Ranges in the **Est. Time** column assume about **10–15 hours/week** for a steady part-time pace and **30–40 hours/week** for an intensive full-time pace, unless a row states otherwise (for example, Full-Stack AI Engineer calls out parallel blueprint hours).
 
@@ -83,7 +83,7 @@ Keep progressing through the numbered **00–25** modules for core ML depth in p
 
 If you're heading toward ML Engineer, MLOps, Data Engineer, AI Engineer, or Full-Stack AI Engineer, you'll need backend system design vocabulary (HTTP, TCP, caching, load balancing, CAP, sharding, message queues). Read these in order:
 
-1. [System Design for Beginners](system-design/README.md) — 21 short lessons on the fundamentals (~5 hours).
+1. [System Design for Beginners](system-design/README.md) — 22 short lessons on the fundamentals (~5–6 hours).
 2. [ML System Design Guide](resources/ml_system_design_guide.md) — how those fundamentals apply to ML services (latency, serving, drift, MLOps).
 3. [Interview Preparation Guide](resources/interview_prep.md#system-design-questions) — practice questions in the System Design section.
 
@@ -747,6 +747,7 @@ road-to-machine-learning/
     18-object-storage.md
     19-message-queues.md
     20-mapreduce.md
+    21-designing-systems.md
     README.md
 
  examples/
@@ -902,7 +903,7 @@ road-to-machine-learning/
 
 | Guide | Description |
 |-------|-------------|
-| [System Design for Beginners](system-design/README.md) | 21 short lessons on backend foundations: computer architecture, networking (TCP/UDP/DNS), HTTP, WebSockets, API design, caching, CDNs, proxies, load balancing, consistent hashing, SQL/NoSQL, replication, sharding, CAP, object storage, message queues, and MapReduce. Read this before the ML guide below |
+| [System Design for Beginners](system-design/README.md) | 22 short lessons on backend foundations: computer architecture, networking (TCP/UDP/DNS), HTTP, WebSockets, API design, caching, CDNs, proxies, load balancing, consistent hashing, SQL/NoSQL, replication, sharding, CAP, object storage, message queues, MapReduce, and a capstone on designing systems end-to-end. Read this before the ML guide below |
 | [ML System Design Guide](resources/ml_system_design_guide.md) | Applies system design fundamentals to ML services: requests/responses, latency, throughput, load balancing, caching, vertical/horizontal scaling, databases, replication, sharding, message queues, stateless/stateful architecture, high availability, monitoring, drift, MLOps |
 
 #### Business & Communication

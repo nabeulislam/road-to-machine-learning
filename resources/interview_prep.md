@@ -397,7 +397,7 @@ df[['feature1', 'feature2']] = scaler.fit_transform(df[['feature1', 'feature2']]
 
 ## System Design Questions
 
-> **Before you drill questions:** make sure you can talk fluently about load balancers, caching, SQL vs NoSQL, sharding, replication, CAP, and message queues. If those terms feel fuzzy, walk through [System Design for Beginners](../system-design/README.md) (21 short lessons) and then come back. For the ML-specific layer (serving, latency, drift, MLOps), use the [ML System Design Guide](ml_system_design_guide.md).
+> **Before you drill questions:** make sure you can talk fluently about load balancers, caching, SQL vs NoSQL, sharding, replication, CAP, and message queues. If those terms feel fuzzy, walk through [System Design for Beginners](../system-design/README.md) (22 short lessons) and then come back. For the ML-specific layer (serving, latency, drift, MLOps), use the [ML System Design Guide](ml_system_design_guide.md).
 
 ### Design a Recommendation System
 

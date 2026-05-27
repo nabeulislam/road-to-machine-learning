@@ -1,6 +1,6 @@
 # System Design for Beginners
 
-Notes I'm writing as I go through "System Design for Beginners" (21 lessons). Each file is a chapter you can read on its own. No video required.
+Notes I'm writing as I go through "System Design for Beginners" (22 lessons). Each file is a chapter you can read on its own. No video required.
 
 The goal is not to memorize buzzwords. By the end you should be able to look at a product like Twitter or Uber and have a rough idea of what's running behind the scenes, and why.
 
@@ -58,6 +58,9 @@ If you already work in software, jump around. The CAP, sharding, and message que
 ### Big Data
 - [19. Message Queues](./19-message-queues.md)
 - [20. MapReduce](./20-mapreduce.md)
+
+### Capstone
+- [21. Designing Systems](./21-designing-systems.md) — how to run a design from requirements to boxes to deep dives; URL shortener walkthrough
 
 ## Books and resources I keep coming back to
 
