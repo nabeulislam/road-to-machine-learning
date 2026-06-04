@@ -1,5 +1,6 @@
 # Road to ML: From Zero to Hero
 
+<div align="center">
 [![GitHub stars](https://img.shields.io/github/stars/NabidAlam/road-to-machine-learning?style=social)](https://github.com/NabidAlam/road-to-machine-learning/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/NabidAlam/road-to-machine-learning?style=social)](https://github.com/NabidAlam/road-to-machine-learning/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/NabidAlam/road-to-machine-learning)](https://github.com/NabidAlam/road-to-machine-learning/issues)
