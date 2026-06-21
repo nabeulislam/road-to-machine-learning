@@ -1,4 +1,4 @@
-# Phase 19: SQL and Database Fundamentals
+# Module 19: SQL and Database Fundamentals
 
 Master SQL and database management for data science.
 

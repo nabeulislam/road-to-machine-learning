@@ -1,4 +1,4 @@
-# Phase 3: Supervised Learning - Regression
+# Module 03: Supervised Learning - Regression
 
 Learn to predict continuous values using regression algorithms.
 

@@ -1,15 +1,15 @@
 # Beginner Projects
 
-Hands-on projects to apply what you've learned in the foundational modules.
+Hands-on projects to apply what you've learned in the foundational modules. **All six projects include runnable code or notebooks in the repo.**
 
-##  Prerequisites
+## Prerequisites
 
 Before starting these projects, you should have completed:
-- Phase 0: Prerequisites
-- Phase 1: Python for Data Science
-- Phase 2: Introduction to ML
-- Phase 3: Supervised Learning - Regression
-- Phase 4: Supervised Learning - Classification
+- Module 00: Prerequisites
+- Module 01: Python for Data Science
+- Module 02: Introduction to ML
+- Module 03: Supervised Learning - Regression
+- Module 04: Supervised Learning - Classification
 
 ## ML for beginners curriculum map (projects)
 
@@ -27,7 +27,7 @@ Use these projects to **implement algorithms in context** (regression, classific
 ##  Projects
 
 ### Project 1: House Price Prediction
-**Difficulty**:   
+**Difficulty**: Beginner  
 **Time**: 2-3 days  
 **Skills**: Regression, Feature Engineering, EDA
 
@@ -44,7 +44,7 @@ Predict house prices using features like size, location, number of rooms, etc.
 ---
 
 ### Project 2: Iris Flower Classification
-**Difficulty**:   
+**Difficulty**: Beginner  
 **Time**: 1 day  
 **Skills**: Classification, EDA, Multiple Algorithms
 
@@ -61,7 +61,7 @@ Classify iris flowers into three species using petal and sepal measurements.
 ---
 
 ### Project 3: Titanic Survival Prediction
-**Difficulty**:   
+**Difficulty**: Beginner  
 **Time**: 2-3 days  
 **Skills**: Classification, Feature Engineering, Data Cleaning
 
@@ -78,7 +78,7 @@ Predict which passengers survived the Titanic disaster.
 ---
 
 ### Project 4: Spam Email Detection
-**Difficulty**:   
+**Difficulty**: Beginner  
 **Time**: 2-3 days  
 **Skills**: Text Classification, NLP Basics, Feature Engineering
 
@@ -95,7 +95,7 @@ Classify emails as spam or not spam using text features.
 ---
 
 ### Project 5: Wine Quality Prediction
-**Difficulty**:   
+**Difficulty**: Beginner  
 **Time**: 2-3 days  
 **Skills**: Regression/Classification, Feature Selection
 
@@ -112,7 +112,7 @@ Predict wine quality based on chemical properties (can be regression or classifi
 ---
 
 ### Project 6: Customer Data Dashboard with Streamlit
-**Difficulty**:   
+**Difficulty**: Beginner  
 **Time**: 2-3 days  
 **Skills**: Streamlit, Data Visualization, Interactive Dashboards
 

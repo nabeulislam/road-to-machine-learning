@@ -1,4 +1,4 @@
-# Phase 22: Reinforcement Learning
+# Module 22: Reinforcement Learning
 
 Master Reinforcement Learning (RL) - the third paradigm of machine learning where agents learn through interaction.
 
@@ -75,9 +75,9 @@ By the end of this module, you should be able to:
 ## Prerequisites
 
 Before starting this module, you should have completed:
-- **Phase 9**: Neural Networks Basics
-- **Phase 10**: Deep Learning Frameworks (TensorFlow/PyTorch)
-- **Phase 05**: Model Evaluation and Optimization (helpful for understanding metrics)
+- **Module 09**: Neural Networks Basics
+- **Module 10**: Deep Learning Frameworks (TensorFlow/PyTorch)
+- **Module 05**: Model Evaluation and Optimization (helpful for understanding metrics)
 
 ## Projects
 

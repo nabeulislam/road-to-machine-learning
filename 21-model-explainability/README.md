@@ -1,4 +1,4 @@
-# Phase 21: Model Explainability
+# Module 21: Model Explainability
 
 Learn to explain and interpret machine learning models.
 

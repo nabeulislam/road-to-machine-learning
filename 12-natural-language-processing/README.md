@@ -1,4 +1,4 @@
-# Phase 12: Natural Language Processing
+# Module 12: Natural Language Processing
 
 Learn to process and understand human language with machine learning.
 

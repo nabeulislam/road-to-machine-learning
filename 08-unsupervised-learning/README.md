@@ -1,4 +1,4 @@
-# Phase 8: Unsupervised Learning
+# Module 08: Unsupervised Learning
 
 Learn to find patterns in data without labels.
 

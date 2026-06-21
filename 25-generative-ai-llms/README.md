@@ -1,4 +1,4 @@
-# Phase 7: Generative AI & Modern LLM Applications
+# Module 25: Generative AI & Modern LLM Applications
 
 Learn to build modern AI applications using Large Language Models (LLMs), prompt engineering, vector databases, RAG systems, and AI agents.
 

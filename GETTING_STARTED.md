@@ -71,7 +71,7 @@ The script will:
 ## Troubleshooting
 
 **Import errors?**
-- Make sure all packages are installed: `pip install -r requirements.txt`
+- Install from the repository root: `pip install -r requirements.txt` (run this from the top-level `road-to-machine-learning` folder, not inside a project subfolder)
 
 **Plots not showing?**
 - On some systems, you may need: `plt.show()` at the end

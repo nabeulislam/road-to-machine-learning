@@ -1,4 +1,4 @@
-# Phase 2: Introduction to Machine Learning
+# Module 02: Introduction to Machine Learning
 
 Understand what machine learning is, how it works, and the different types of ML problems.
 

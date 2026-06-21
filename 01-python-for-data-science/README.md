@@ -1,4 +1,4 @@
-# Phase 1: Python for Data Science
+# Module 01: Python for Data Science
 
 Master the essential Python libraries for data manipulation, analysis, and visualization—your **data processing & visualization (ML toolbox)** for everything that follows.
 

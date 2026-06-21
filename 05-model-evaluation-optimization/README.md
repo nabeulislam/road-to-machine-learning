@@ -1,4 +1,4 @@
-# Phase 5: Model Evaluation & Optimization
+# Module 05: Model Evaluation & Optimization
 
 Learn to properly evaluate models and optimize their performance.
 

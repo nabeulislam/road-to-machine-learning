@@ -1,4 +1,4 @@
-# Phase 6: Ensemble Methods
+# Module 06: Ensemble Methods
 
 Learn to combine multiple models for better performance.
 

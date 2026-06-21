@@ -1,4 +1,4 @@
-# Phase 11: Computer Vision
+# Module 11: Computer Vision
 
 Master Convolutional Neural Networks (CNNs) for image processing.
 

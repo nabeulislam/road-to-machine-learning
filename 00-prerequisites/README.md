@@ -1,4 +1,4 @@
-# Phase 0: Prerequisites
+# Module 00: Prerequisites
 
 Welcome to the foundation phase! Before diving into machine learning, we need to build a solid foundation in programming and mathematics.
 

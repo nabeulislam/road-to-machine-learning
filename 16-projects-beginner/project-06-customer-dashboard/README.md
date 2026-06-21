@@ -28,8 +28,8 @@ By completing this project, you will learn to:
 ## Prerequisites
 
 Before starting, you should have completed:
-- Phase 0: Prerequisites (Python Basics)
-- Phase 1: Python for Data Science (Pandas, Matplotlib, Seaborn)
+- Module 00: Prerequisites (Python Basics)
+- Module 01: Python for Data Science (Pandas, Matplotlib, Seaborn)
 - Basic understanding of data visualization
 
 ## Dataset

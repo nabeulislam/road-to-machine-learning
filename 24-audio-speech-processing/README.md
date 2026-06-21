@@ -1,4 +1,4 @@
-# Phase 24: Audio and Speech Processing
+# Module 24: Audio and Speech Processing
 
 Master audio and speech processing with deep learning for real-world applications.
 
@@ -64,9 +64,9 @@ By the end of this module, you should be able to:
 ## Prerequisites
 
 Before starting this module, you should have completed:
-- **Phase 9**: Neural Networks Basics
-- **Phase 10**: Deep Learning Frameworks (PyTorch recommended)
-- **Phase 12**: Natural Language Processing (helpful for ASR/TTS)
+- **Module 09**: Neural Networks Basics
+- **Module 10**: Deep Learning Frameworks (PyTorch recommended)
+- **Module 12**: Natural Language Processing (helpful for ASR/TTS)
 
 ## Projects
 

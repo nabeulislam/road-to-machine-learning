@@ -1,4 +1,4 @@
-# Phase 7: Feature Engineering
+# Module 07: Feature Engineering
 
 Learn to create and select the best features for your models.
 

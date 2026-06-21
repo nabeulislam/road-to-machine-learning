@@ -1,4 +1,4 @@
-# Phase 13: Model Deployment
+# Module 13: Model Deployment
 
 Learn to deploy machine learning models to production.
 

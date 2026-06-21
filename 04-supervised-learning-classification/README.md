@@ -1,4 +1,4 @@
-# Phase 4: Supervised Learning - Classification
+# Module 04: Supervised Learning - Classification
 
 Learn to classify data into categories using various classification algorithms.
 

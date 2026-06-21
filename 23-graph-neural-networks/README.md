@@ -1,4 +1,4 @@
-# Phase 23: Graph Neural Networks
+# Module 23: Graph Neural Networks
 
 Master Graph Neural Networks (GNNs) for learning on graph-structured data.
 
@@ -63,9 +63,9 @@ By the end of this module, you should be able to:
 ## Prerequisites
 
 Before starting this module, you should have completed:
-- **Phase 9**: Neural Networks Basics
-- **Phase 10**: Deep Learning Frameworks (PyTorch recommended)
-- **Phase 12**: Natural Language Processing (helpful for understanding attention)
+- **Module 09**: Neural Networks Basics
+- **Module 10**: Deep Learning Frameworks (PyTorch recommended)
+- **Module 12**: Natural Language Processing (helpful for understanding attention)
 
 ## Projects
 

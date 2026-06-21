@@ -1,4 +1,4 @@
-# Phase 9: Neural Networks Basics
+# Module 09: Neural Networks Basics
 
 Introduction to neural networks - the foundation of deep learning.
 

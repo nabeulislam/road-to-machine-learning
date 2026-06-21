@@ -32,9 +32,9 @@ By completing this project, you will learn to:
 ## Prerequisites
 
 Before starting, you should have completed:
-- Phase 2: Machine Learning Basics
-- Phase 5: Model Evaluation & Optimization
-- Phase 6: Ensemble Methods (all topics)
+- Module 02: Machine Learning Basics
+- Module 05: Model Evaluation & Optimization
+- Module 06: Ensemble Methods (all topics)
 - Understanding of cross-validation and hyperparameter tuning
 
 ## Dataset

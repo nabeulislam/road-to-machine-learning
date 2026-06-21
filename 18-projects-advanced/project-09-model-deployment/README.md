@@ -33,8 +33,8 @@ By completing this project, you will learn to:
 ## Prerequisites
 
 Before starting, you should have completed:
-- Phase 2-6: Core ML concepts
-- Phase 13: Model Deployment (all topics)
+- Modules 02–06: Core ML concepts
+- Module 13: Model Deployment (all topics)
 - Understanding of REST APIs
 - Basic knowledge of Docker
 - Familiarity with cloud platforms (optional)

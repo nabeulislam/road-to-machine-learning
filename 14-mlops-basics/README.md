@@ -1,4 +1,4 @@
-# Phase 14: MLOps Basics
+# Module 14: MLOps Basics
 
 Learn to manage the complete ML lifecycle with MLOps practices.
 

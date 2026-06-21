@@ -13,7 +13,7 @@
 
 *Perfect for beginners • 26 Learning Modules • 23 Real-World Projects • Production-Ready Skills*
 
-[Get Started](#getting-started) • [Learning Path](#learning-path) • [Projects](#phase-9-projects) • [System Design](system-design/README.md) • [Full-stack AI](resources/career_roadmap_guide.md#full-stack-ai-engineer) • [Contribute](#contributing)
+[Start Here](START-HERE.md) • [Get Started](#getting-started) • [Learning Path](#learning-path) • [Projects](#stage-9-projects) • [System Design](system-design/README.md) • [Full-stack AI](resources/career_roadmap_guide.md#full-stack-ai-engineer) • [Contribute](#contributing)
 
 </div>
 
@@ -65,7 +65,7 @@
 - **[Career Roadmap Guide](resources/career_roadmap_guide.md)** roles: module priorities, suggested projects, essential resources, skills checklists, and time guidance grounded in this repo’s **00–25** folders.
 - **Full-Stack AI Engineer**: same style of overview inside the Career Roadmap Guide, plus **[in-repo lesson chapters](resources/full_stack_track/README.md)** and the companion **[Full-Stack AI Engineer Blueprint](resources/full_stack_ai_engineer_roadmap.md)** for TypeScript through deployment and AI integration. Most hands-on engineering work is **outside** the numbered module folders; use the lessons + blueprint phases and free links for day-to-day study.
 
-The [full roadmap guide](resources/career_roadmap_guide.md) follows the same **module numbering and Phase 6 vs. module 15 (time series) branch** as the [Learning Path Overview](#learning-path-overview) above.
+The [full roadmap guide](resources/career_roadmap_guide.md) follows the same **module numbering and Stage 6 vs. module 15 (time series) branch** as the [Learning Path Overview](#learning-path-overview) above.
 
 [**View Complete Career Roadmap Guide →**](resources/career_roadmap_guide.md)
 
@@ -114,34 +114,34 @@ This repository provides a structured learning path for machine learning, organi
 
 ## Learning Path
 
-**Note on Module Numbering**: Module numbers (00-24, 25) don't strictly follow the learning path order. The phases below represent the recommended learning sequence. Some modules can be learned in parallel or in different orders based on your goals. See individual module READMEs for prerequisites and suggested learning order.
+**Note on numbering**: Folder names use **Module 00–25** (for example `09-neural-networks-basics`). **Stages** in the table below are the recommended learning sequence. A stage can span several modules. They are not the same label. Some modules can be learned in parallel depending on your goals. See each module README for prerequisites.
 
-**Time Estimates**: Realistic completion time is **15-22 months (full-time, 30-40 hrs/week)** or **30-39 months (part-time, 10-15 hrs/week)** for comprehensive coverage including all 26 modules and 23 projects. See [FAQ section](#common-questions-learning-guide) for detailed breakdown.
+**Time Estimates**: Realistic completion time is **15–22 months** full-time (30–40 hrs/week) or **30–39 months** part-time (10–15 hrs/week) for full coverage of all 26 modules and 23 projects. See the [FAQ section](#common-questions-learning-guide) for a stage-by-stage breakdown.
 
 ### How this repo lines up with typical DS/ML curricula
 
-Structured courses (university terms, bootcamps, or long-form playlists) usually stack **Python → math/stats → tabular ML → evaluation & feature work → deep learning & GenAI → SQL & storytelling → production/MLOps → electives**. This repository follows the same *logic*, but groups topics by **module** instead of week numbers: Phase **0** is programming plus calculus/linear algebra/stats; Phase **1** is the NumPy–Pandas–viz–EDA–API–SQL-access stack; Phases **2–4** are classical supervised and unsupervised ML; Phases **5–7** are neural nets, specialized DL, and LLM-era tooling; **7.5** and **13–14** cover SQL, fairness of metrics, explainability, deployment, and experiment/version discipline; **15** and **22–24** are branches (time series, RL, graphs, audio). If your external syllabus mentions something specific—**MLE and odds** for logistic models, **ROC vs PR**, **data leakage**, **Airflow/Kubernetes monitoring**, **Kaggle-style iteration**—look first in **04**, **05**, **06–07**, **14**, and the **project** folders; gaps are fair game for [contributions](#contributing).
+Structured courses usually stack Python, then math and stats, then tabular ML, then evaluation and feature work, then deep learning and GenAI, then SQL and storytelling, then production and MLOps, then electives. This repository follows the same logic but groups topics by module folder instead of week numbers. **Stage 0** covers programming plus calculus, linear algebra, and stats. **Stage 1** covers NumPy, Pandas, visualization, EDA, APIs, and SQL access. **Stages 2–4** cover classical supervised and unsupervised ML. **Stages 5–7** cover neural nets, specialized deep learning, and LLM-era tooling. Modules **13–14** cover deployment and experiment discipline. Module **15** and modules **22–24** are branch tracks for time series, RL, graphs, and audio. If your external syllabus mentions MLE and odds for logistic models, ROC vs PR, data leakage, Airflow or Kubernetes monitoring, or Kaggle-style iteration, look first in modules **04**, **05**, **06–07**, **14**, and the project folders.
 
 ## Learning Path Overview
 
-| Phase | Modules | Focus Area | Est. Time (Full-Time) | Est. Time (Part-Time) |
+| Stage | Modules | Focus Area | Est. Time (Full-Time) | Est. Time (Part-Time) |
 |-------|---------|------------|----------------------|----------------------|
-| **Phase 0** | 00 | Foundation (Python, Math) | 2-3 months | 4-6 months |
-| **Phase 1** | 01 | Data Fundamentals | 2-3 months | 4-6 months |
-| **Phase 2** | 02-05 | ML Basics | 2-3 months | 4-6 months |
-| **Phase 3** | 06-07 | Advanced ML | 1-2 months | 2-4 months |
-| **Phase 4** | 08 | Unsupervised Learning | 1 month | 2 months |
-| **Phase 5** | 09-10 | Deep Learning Fundamentals | 2 months | 4 months |
-| **Phase 6** | 11-12 | Vision & language (specialized DL) | 3-4 months | 6-8 months |
-| **Branch** | 15 | Time series (parallel to or after Phase 5–6) | 0.5-1 month | 1-2 months |
-| **Phase 7** | 25 | Generative AI & Modern LLMs | 1-2 months | 2-4 months |
-| **Phase 7.5** | 19-21 | Essential Skills (SQL, Imbalanced Data, Explainability) | 1-2 months | 2-4 months |
-| **Phase 8** | 13-14 | Production & MLOps | 2-3 months | 4-6 months |
-| **Phase 9** | 16-18 | Projects (23 total) | 4-6 months | 8-12 months |
-| **Phase 10** | 22-24 | Advanced Specialized Topics (RL, GNNs, Audio) | 2-3 months | 4-6 months |
+| **Stage 0** | 00 | Foundation (Python, Math) | 2-3 months | 4-6 months |
+| **Stage 1** | 01 | Data Fundamentals | 2-3 months | 4-6 months |
+| **Stage 2** | 02-05 | ML Basics | 2-3 months | 4-6 months |
+| **Stage 3** | 06-07 | Advanced ML | 1-2 months | 2-4 months |
+| **Stage 4** | 08 | Unsupervised Learning | 1 month | 2 months |
+| **Stage 5** | 09-10 | Deep Learning Fundamentals | 2 months | 4 months |
+| **Stage 6** | 11-12 | Vision & language (specialized DL) | 3-4 months | 6-8 months |
+| **Branch** | 15 | Time series (parallel to or after Stage 5–6) | 0.5-1 month | 1-2 months |
+| **Stage 7** | 25 | Generative AI & Modern LLMs | 1-2 months | 2-4 months |
+| **Stage 7.5** | 19-21 | Essential Skills (SQL, Imbalanced Data, Explainability) | 1-2 months | 2-4 months |
+| **Stage 8** | 13-14 | Production & MLOps | 2-3 months | 4-6 months |
+| **Stage 9** | 16-18 | Projects (23 total) | 4-6 months | 8-12 months |
+| **Stage 10** | 22-24 | Advanced Specialized Topics (RL, GNNs, Audio) | 2-3 months | 4-6 months |
 | **Total** | 26 modules | Complete Path | **15-22 months** | **30-39 months** |
 
-### Phase 0: Foundation (Prerequisites)
+### Stage 0: Foundation (Prerequisites)
 **Goal**: Build the mathematical and programming foundation needed for ML
 
 - **00-prerequisites**
@@ -161,7 +161,7 @@ Structured courses (university terms, bootcamps, or long-form playlists) usually
   - Computational Math: Python code examples alongside theory for better intuition
   - Environment Setup (Python, Jupyter, Virtual Environments, Git & GitHub basics)
 
-### Phase 1: Data Fundamentals
+### Stage 1: Data Fundamentals
 **Goal**: Master data manipulation and visualization
 
 - **01-python-for-data-science** — **Data processing & visualization (ML toolbox)**
@@ -179,7 +179,7 @@ Structured courses (university terms, bootcamps, or long-form playlists) usually
   - ETL with AWS RDS: Extract, Transform, Load pipelines
   - Advanced Selenium Web Scraping: Chromedriver, dynamic content, Smartprix example
 
-### Phase 2: Machine Learning Basics
+### Stage 2: Machine Learning Basics
 **Goal**: Understand core ML concepts and algorithms
 
 **Machine learning for beginners** (maps with runnable examples: [Introduction](02-introduction-to-ml/introduction-to-ml.md#ml-for-beginners-curriculum-map-this-guide) → [Regression](03-supervised-learning-regression/regression.md#ml-for-beginners-curriculum-map-this-guide) → [Classification](04-supervised-learning-classification/classification.md#ml-for-beginners-curriculum-map-this-guide); EDA and preprocessing in [EDA](01-python-for-data-science/04-exploratory-data-analysis.md#ml-for-beginners-curriculum-map-this-guide) and [Feature engineering](07-feature-engineering/feature-engineering.md#ml-for-beginners-curriculum-map-this-guide); practice in [Beginner projects](16-projects-beginner/README.md#ml-for-beginners-curriculum-map-projects))
@@ -193,7 +193,7 @@ Structured courses (university terms, bootcamps, or long-form playlists) usually
 - **03-supervised-learning-regression**
   - **Linear regression** (simple and multiple) and **evaluation metrics** (MSE, RMSE, MAE, R²)
   - **Polynomial and multiple regression** techniques; regularization (Ridge, Lasso)
-  - **Optimization lens**: gradient descent intuition and **batch vs stochastic vs mini-batch** updates (ties to Phase 0 calculus and Phase 5 deep learning)
+  - **Optimization lens**: gradient descent intuition and **batch vs stochastic vs mini-batch** updates (ties to Stage 0 calculus and Stage 5 deep learning)
   - **Data distribution analysis**: percentiles, histogram, boxplot (see guide)
   - **Feature relationships**: scatter plots, covariance, correlation (with regression workflow)
   - **End-to-end regression project** path and **saving a model** (train → evaluate → persist); full walkthrough: [regression project tutorial](03-supervised-learning-regression/regression-project-tutorial.md); deployment: [model deployment module](13-model-deployment/README.md)
@@ -202,7 +202,7 @@ Structured courses (university terms, bootcamps, or long-form playlists) usually
 - **04-supervised-learning-classification**
   - **Logistic regression** (including multiclass / softmax framing), **maximum likelihood** view of loss, and **K-Nearest Neighbours** (distance-based learning); **Naive Bayes** (probabilistic classification)
   - Decision Trees, Random Forests, SVM (multiclass strategies; Accuracy, Precision, Recall, F1, ROC-AUC); **advanced track** in same guide: entropy / information gain / rules, SVM margin–hyperplane–kernels, tree depth vs overfitting, tree vs forest, supervised model comparison ([map](04-supervised-learning-classification/classification.md#advanced-machine-learning-curriculum-map-this-guide))
-  - **Exploratory data analysis and data cleaning** (tie-in with Phase 1 EDA); **feature relationship analysis** (scatter, covariance, correlation)
+  - **Exploratory data analysis and data cleaning** (tie-in with Stage 1 EDA); **feature relationship analysis** (scatter, covariance, correlation)
   - Bias auditing and fairness (Fairlearn, demographic parity, equalized odds)
 
 - **05-model-evaluation-optimization**
@@ -216,7 +216,7 @@ Structured courses (university terms, bootcamps, or long-form playlists) usually
   - Overfitting and Underfitting
   - Model Calibration (Probability Calibration, Platt Scaling, Isotonic Regression)
 
-### Phase 3: Advanced Supervised Learning
+### Stage 3: Advanced Supervised Learning
 **Goal**: Explore ensemble methods and advanced techniques
 
 **Advanced machine learning** (trees, SVM theory, supervised comparison: [Classification guide](04-supervised-learning-classification/classification.md#advanced-machine-learning-curriculum-map-this-guide); ensembles: [Ensemble methods](06-ensemble-methods/ensemble-methods.md#advanced-machine-learning-curriculum-map-this-guide); clustering: [Unsupervised](08-unsupervised-learning/unsupervised-learning.md#advanced-machine-learning-curriculum-map-this-guide))
@@ -235,14 +235,14 @@ Structured courses (university terms, bootcamps, or long-form playlists) usually
   - Decision Tree Visualization with dtreeviz
   - Comprehensive sklearn Pipeline and ColumnTransformer Guide
 
-### Phase 4: Unsupervised Learning
+### Stage 4: Unsupervised Learning
 **Goal**: Make sense of data when nobody handed you labels.
 
 Module **08** is where you stop pretending every dataset comes with a target column. You cluster, reduce dimensions, spot weird points, and learn to argue *why* a grouping is plausible—skills you will reuse in EDA, modeling, and paper-style analysis. Follow the unsupervised walkthrough when you want structure beyond “try k=3”: [unsupervised learning map](08-unsupervised-learning/unsupervised-learning.md#advanced-machine-learning-curriculum-map-this-guide).
 
 - **08-unsupervised-learning** — K-Means, hierarchical and density-based clustering, validation and plots, PCA / t-SNE / SVD, **LDA (supervised dimensionality reduction)** beside PCA, anomaly detection, **association rules (e.g. Apriori / market-basket style)**.
 
-### Phase 5: Deep Learning Fundamentals
+### Stage 5: Deep Learning Fundamentals
 **Goal**: Build intuition that survives new architectures.
 
 Most breakthroughs are still “layers + nonlinearity + data + optimization.” Here you learn to **read training curves**, **sanity-check gradients**, and know *why* a linear model fails—before frameworks hide the details. If you are aiming toward a **research-scientist** style path, treat this phase as your lab notebook habits: small experiments, controlled changes, reproducible runs.
@@ -251,7 +251,7 @@ Most breakthroughs are still “layers + nonlinearity + data + optimization.” 
 
 - **10-deep-learning-frameworks** — Turn math into working code: PyTorch tensors and autograd, real training loops, Keras ergonomics, saving models, and shipping-friendly formats when you need them. [Study map →](10-deep-learning-frameworks/deep-learning-frameworks.md#deep-learning-curriculum-map-this-guide) · [Practice builds →](17-projects-intermediate/README.md#deep-learning-curriculum-map-projects) (MNIST, churn, tabular regression)
 
-### Phase 6: Specialized Deep Learning
+### Stage 6: Specialized Deep Learning
 **Goal**: See the world as tensors—pixels and tokens.
 
 This is where **vision** and **language** split into specialist toolkits, but the mindset stays the same: inductive biases (convolution for locality, attention for pairing), careful data pipelines, and honest evaluation. Research-minded learners should linger here: compare baselines, ablate one change at a time, and write down *what surprised you*.
@@ -262,29 +262,29 @@ This is where **vision** and **language** split into specialist toolkits, but th
 
 - **12-natural-language-processing** — Sequences first (RNN → LSTM/GRU → bidirectional stacks), then the attention era: self-attention, encoders/decoders, inference, and practical Hugging Face workflows—plus retrieval and sentiment tasks that mirror messy real text.
 
-### Phase 7: Generative AI & Modern LLM Applications
+### Stage 7: Generative AI & Modern LLM Applications
 **Goal**: Work *with* foundation models, not against them.
 
 You rarely train a frontier LLM from scratch; you **compose**—prompts, retrieval, tools, evaluation harnesses, and guardrails. This phase is about shipping ideas quickly *without* abandoning rigor: trace failures, measure hallucinations, version prompts like code, and know when a vector DB is the right memory and when it is theater.
 
 - **25-generative-ai-llms** — Prompt patterns, embeddings and vector search, RAG pipelines, agents and orchestration, and patterns that survive contact with production. Deeper reads: [GenAI overview](resources/generative_ai_comprehensive_guide.md), [RAG guide](resources/rag_comprehensive_guide.md), [LangChain](resources/langchain_guide.md), [Agents](resources/ai_agents_guide.md).
 
-**Pacing:** Roughly 1–2 months full-time (2–4 part-time), often best **after** Phase 6 or **alongside** NLP if you learn by building products early.
+**Pacing:** Roughly 1–2 months full-time (2–4 part-time), often best **after** Stage 6 or **alongside** NLP if you learn by building products early.
 
 ### Module 15: Time series (when your world has a clock)
 
 Forecasting and monitoring problems break the usual “shuffle and split” story. Treat **15** as a side quest you can start after you are comfortable with regression *or* after RNNs—many research and product teams touch time series even if it is not their main title.
 
-- **15-time-series-analysis** — Trend and seasonality, classical models (ARIMA family), deep sequence models, feature design for temporal data, and evaluation that respects time ordering. *Numbering note:* module 15 sits after 13–14 in the repo but fits logically here or alongside Phases 5–6.
+- **15-time-series-analysis** — Trend and seasonality, classical models (ARIMA family), deep sequence models, feature design for temporal data, and evaluation that respects time ordering. *Numbering note:* module 15 sits after 13–14 in the repo but fits logically here or alongside Stages 5–6.
 
-### Phase 7.5: Essential Data Science Skills
+### Stage 7.5: Essential Data Science Skills
 **Goal**: Master critical skills for real-world ML applications
 
 **Note**: These modules can be learned in parallel with other phases or integrated earlier in your learning journey:
 - **DSA (recommended for interviews)**: Follow the [DSA Course (Python)](resources/dsa_course_python.md) alongside these modules to build strong coding + problem-solving fundamentals
-- **SQL** can be learned after Phase 1 (Data Fundamentals) for better data access skills
-- **Imbalanced Data** is most useful after Phase 2 (Classification) when you encounter real-world datasets
-- **Model Explainability** is valuable after Phase 3 (Advanced ML) when working with complex models
+- **SQL** can be learned after Stage 1 (Data Fundamentals) for better data access skills
+- **Imbalanced Data** is most useful after Stage 2 (Classification) when you encounter real-world datasets
+- **Model Explainability** is valuable after Stage 3 (Advanced ML) when working with complex models
 
 - **19-sql-database-fundamentals**
   - Database Fundamentals and SQL Basics
@@ -294,7 +294,7 @@ Forecasting and monitoring problems break the usual “shuffle and split” stor
   - Data Cleaning with SQL
   - SQL with Python Integration
   - NoSQL Databases (MongoDB, Redis, Cassandra, Neo4j)
-  - **Suggested Timing**: Can be learned after Phase 1 or in parallel with Phase 2
+  - **Suggested Timing**: Can be learned after Stage 1 or in parallel with Stage 2
 
 - **20-handling-imbalanced-data**
   - Understanding Imbalanced Data Problems
@@ -303,7 +303,7 @@ Forecasting and monitoring problems break the usual “shuffle and split” stor
   - Appropriate Evaluation Metrics (PR-AUC, F1-Score)
   - Complete Workflow Examples
   - Best Practices and Common Pitfalls
-  - **Suggested Timing**: Best learned after Phase 2 (Classification) or Phase 3 (Advanced ML)
+  - **Suggested Timing**: Best learned after Stage 2 (Classification) or Stage 3 (Advanced ML)
 
 - **21-model-explainability**
   - Feature Importance Methods (Tree-based, Permutation)
@@ -312,9 +312,9 @@ Forecasting and monitoring problems break the usual “shuffle and split” stor
   - Partial Dependence Plots (PDP) and ICE Plots
   - Model Interpretation Best Practices
   - Regulatory Compliance and Ethical AI
-  - **Suggested Timing**: Best learned after Phase 3 (Advanced ML) or Phase 5 (Deep Learning)
+  - **Suggested Timing**: Best learned after Stage 3 (Advanced ML) or Stage 5 (Deep Learning)
 
-### Phase 8: Production & Deployment
+### Stage 8: Production & Deployment
 **Goal**: Learn to deploy ML models in production
 
 **Note**: Modules 13-14 are numbered before modules 15-18 but logically come after specialized deep learning and generative AI topics. Learn these after you have built and trained models.
@@ -341,19 +341,21 @@ Forecasting and monitoring problems break the usual “shuffle and split” stor
   - Apache Kafka for Data Streaming
   - Apache Spark for Big Data Processing
 
-### Phase 9: Projects
+### Stage 9: Projects
 **Goal**: Apply knowledge through real-world projects
 
-**Note**: Projects are numbered 16-18 but should be worked on throughout your learning journey. Start beginner projects after Phase 2, intermediate after Phase 3-4, and advanced after Phase 7-8.
+**Note**: Projects live in modules 16–18. Start beginner projects after Stage 2, intermediate after Stages 3–4, and advanced after Stages 7–8.
+
+**Delivery:** Beginner projects include runnable code in the repo. Intermediate and advanced projects ship as detailed README briefs. You build notebooks and scripts yourself.
 
 #### Projects Summary
 
-| Category | Count | Prerequisites | Est. Time | Status |
-|----------|-------|---------------|-----------|--------|
-| **Beginner** | 6 | Phases 0-2 | 2-3 weeks | All Available |
-| **Intermediate** | 8 | Phases 0-4 | 4-6 weeks | All Available |
-| **Advanced** | 9 | Phases 0-7 | 8-12 weeks | All Available |
-| **Total** | **23** | - | **4-6 months** | **100% Complete** |
+| Category | Count | Prerequisites | Est. Time | Delivery |
+|----------|-------|---------------|-----------|----------|
+| **Beginner** | 6 | Stages 0–2 | 2–3 weeks | Code included |
+| **Intermediate** | 8 | Stages 0–4 | 4–6 weeks | README brief |
+| **Advanced** | 9 | Stages 0–7 | 8–12 weeks | README brief |
+| **Total** | **23** | — | **4–6 months** | Mixed |
 
 #### Beginner Projects (6 projects)
 
@@ -366,7 +368,7 @@ Forecasting and monitoring problems break the usual “shuffle and split” stor
 | 5 | Wine Quality Prediction | Regression, Feature Engineering | 2-3 days | ✓ Available |
 | 6 | Customer Data Dashboard with Streamlit | Data Visualization, Streamlit | 3-5 days | ✓ Available |
 
-**Prerequisites**: Complete Phases 0-2 before starting
+**Prerequisites**: Complete Stages 0-2 before starting
 
 #### Intermediate Projects (8 projects)
 
@@ -381,7 +383,7 @@ Forecasting and monitoring problems break the usual “shuffle and split” stor
 | 7 | Feature Engineering Mastery | Feature Engineering, Advanced Techniques | 4-5 days | ✓ Available |
 | 8 | Ensemble Methods Comparison | Ensemble Methods, Model Comparison | 3-4 days | ✓ Available |
 
-**Prerequisites**: Complete Phases 0-4 and some Phase 7.5 topics recommended
+**Prerequisites**: Complete Stages 0-4 and some Stage 7.5 topics recommended
 
 #### Advanced Projects (9 projects)
 
@@ -400,12 +402,12 @@ Forecasting and monitoring problems break the usual “shuffle and split” stor
 **Optional Capstones (Portfolio-Grade, GDPR-Safe):**
 - [Capstone Blueprints →](18-projects-advanced/capstones/README.md) (ML Engineer, LLM/RAG, Data/Analytics)
 
-**Prerequisites**: Complete Phases 0-7 recommended for full benefit
+**Prerequisites**: Complete Stages 0-7 recommended for full benefit
 
-### Phase 10: Advanced Specialized Topics
+### Stage 10: Advanced Specialized Topics
 **Goal**: Push into domains where structure is not a tidy table of rows.
 
-**Note**: Reinforcement learning, graphs, and audio each need solid deep-learning fundamentals. Treat **22–24** as electives you pick when a problem pulls you there—after Phase 5–6 (and often after you have shipped at least one non-trivial model).
+**Note**: Reinforcement learning, graphs, and audio each need solid deep-learning fundamentals. Treat **22–24** as electives you pick when a problem pulls you there—after Stage 5–6 (and often after you have shipped at least one non-trivial model).
 
 - **22-reinforcement-learning**
   - Markov Decision Processes (MDPs)
@@ -490,7 +492,7 @@ jupyter notebook
 
 ### 4. Start Learning!
 
-**Quick Start Option**: Want to see ML in action immediately? Check out [GETTING_STARTED.md](GETTING_STARTED.md) for a 30-minute first project!
+**Quick Start Option**: New here? Read [START-HERE.md](START-HERE.md) first. Want to see ML in action immediately? Try [GETTING_STARTED.md](GETTING_STARTED.md) for a 30-minute first project.
 
 **Full Learning Path**: Follow the modules in order:
 1. Start with `00-prerequisites`
@@ -825,12 +827,13 @@ road-to-machine-learning/
  README.md
  CONTRIBUTING.md
  DISCLAIMER.md
+ START-HERE.md
  GETTING_STARTED.md
  LEARNING_ROADMAP.md
  QUICK_START.md
 ```
 
-**Note:** Module folders are numbered **00–25** on disk (same as the learning-path *phases*, which reorder topics for teaching). The tree above follows **numeric folder order**.
+**Note:** Module folders are numbered **00–25** on disk. **Stages** in the learning path reorder topics for teaching. They are not the same label. See [START-HERE.md](START-HERE.md).
 
 ## Resources
 
@@ -991,9 +994,9 @@ A: Realistic time estimates vary significantly based on your background and time
 - **Standard**: Complete coverage with all modules and projects
 - **Comprehensive**: Deep understanding, all projects, portfolio building
 
-#### Phase-by-Phase Breakdown
+#### Stage-by-stage Breakdown
 
-| Phase | Focus | Full-Time | Part-Time |
+| Stage | Focus | Full-Time | Part-Time |
 |-------|-------|-----------|-----------|
 | Prerequisites | Python, Math | 2-3 months | 4-6 months |
 | Data Fundamentals | NumPy, Pandas, Visualization | 2-3 months | 4-6 months |
@@ -1004,7 +1007,7 @@ A: Realistic time estimates vary significantly based on your background and time
 | Essential Skills | SQL, Imbalanced Data, Explainability | 1-2 months | 2-4 months |
 | Production & MLOps | Deployment, MLOps | 2-3 months | 4-6 months |
 | Projects (23 total) | Hands-on Practice | 4-6 months | 8-12 months |
-| **Total** | **Complete Path** | **12-18 months** | **24-30 months** |
+| **Total** | **Complete Path** | **15–22 months** | **30–39 months** |
 
 #### Factors Affecting Timeline
 
@@ -1020,9 +1023,9 @@ A: No! Most modules work fine on a regular laptop. Deep learning modules (11-12)
 
 **Q: Should I learn X before Y?**  
 A: Generally, follow the module order. However:
-- SQL (module 19) can be learned after Phase 1 (Data Fundamentals)
+- SQL (module 19) can be learned after Stage 1 (Data Fundamentals)
 - Imbalanced Data (module 20) is best after Classification (module 4)
-- Model Explainability (module 21) is best after Advanced ML (Phase 3)
+- Model Explainability (module 21) is best after Advanced ML (Stage 3)
 
 ### Learning Path
 
@@ -1065,9 +1068,9 @@ A: Python 3.9 or 3.10 recommended. Most libraries support these versions well. A
 
 **Q: Should I do all projects?**  
 A: Do at least:
-- 2-3 beginner projects (after Phase 2)
-- 3-4 intermediate projects (after Phase 4)
-- 2-3 advanced projects (after Phase 8)
+- 2-3 beginner projects (after Stage 2)
+- 3-4 intermediate projects (after Stage 4)
+- 2-3 advanced projects (after Stage 8)
 Focus on projects relevant to your career goals.
 
 **Q: Can I use my own datasets?**  

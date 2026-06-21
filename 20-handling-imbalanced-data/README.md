@@ -1,4 +1,4 @@
-# Phase 20: Handling Imbalanced Data
+# Module 20: Handling Imbalanced Data
 
 Learn to handle imbalanced datasets effectively.
 

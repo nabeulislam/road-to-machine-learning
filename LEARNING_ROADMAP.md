@@ -1,67 +1,69 @@
-#  Learning Roadmap - Visual Guide
+# Learning Roadmap - Visual Guide
 
 A visual representation of your ML learning journey from zero to hero.
 
-##  Learning Path Overview
+**Numbering:** **Stages** below are the recommended learning order. **Module numbers** (00–25) are folder names on disk. Module 09 is not Stage 9. See [START-HERE.md](START-HERE.md).
+
+## Learning Path Overview
 
 ```
 
                     ROAD TO ML: ZERO TO HERO                  
 
 
-PHASE 0: FOUNDATION (2-3 months full-time, 4-6 months part-time)
+STAGE 0: FOUNDATION (2-3 months full-time, 4-6 months part-time)
  Python Basics
  Mathematics Basics
  Environment Setup
     ↓
-PHASE 1: DATA FUNDAMENTALS (2-3 months full-time, 4-6 months part-time)
+STAGE 1: DATA FUNDAMENTALS (2-3 months full-time, 4-6 months part-time)
  NumPy, Pandas & Polars
  Data Visualization
  Exploratory Data Analysis
     ↓
-PHASE 2: ML BASICS (2-3 months full-time, 4-6 months part-time)
+STAGE 2: ML BASICS (2-3 months full-time, 4-6 months part-time)
  Introduction to ML
  Regression & Classification
  Bias Auditing & Fairness
  Model Evaluation
     ↓
-PHASE 3: ADVANCED ML (1-2 months full-time, 2-4 months part-time)
+STAGE 3: ADVANCED ML (1-2 months full-time, 2-4 months part-time)
  Ensemble Methods
  Feature Engineering
     ↓
-PHASE 4: UNSUPERVISED LEARNING (1 month full-time, 2 months part-time)
+STAGE 4: UNSUPERVISED LEARNING (1 month full-time, 2 months part-time)
  Clustering
  Dimensionality Reduction
     ↓
-PHASE 5: DEEP LEARNING FUNDAMENTALS (2 months full-time, 4 months part-time)
+STAGE 5: DEEP LEARNING FUNDAMENTALS (2 months full-time, 4 months part-time)
  Neural Networks Basics
  Deep Learning Frameworks (PyTorch/TensorFlow)
     ↓
-PHASE 6: SPECIALIZED DEEP LEARNING (3-4 months full-time, 6-8 months part-time)
+STAGE 6: SPECIALIZED DEEP LEARNING (3-4 months full-time, 6-8 months part-time)
  Computer Vision
  Natural Language Processing
  Time Series Analysis
     ↓
-PHASE 7: GENERATIVE AI & MODERN LLMs (1-2 months full-time, 2-4 months part-time)
+STAGE 7: GENERATIVE AI & MODERN LLMs (1-2 months full-time, 2-4 months part-time)
  Prompt Engineering
  RAG & Vector Databases
  LLM Agents & Multi-Agent Systems
     ↓
-PHASE 7.5: ESSENTIAL SKILLS (1-2 months full-time, 2-4 months part-time)
+STAGE 7.5: ESSENTIAL SKILLS (1-2 months full-time, 2-4 months part-time)
  DSA in Python (Interview Patterns)
  SQL & Databases
  Imbalanced Data
  Model Explainability
     ↓
-PHASE 8: PRODUCTION & MLOPS (2-3 months full-time, 4-6 months part-time)
+STAGE 8: PRODUCTION & MLOPS (2-3 months full-time, 4-6 months part-time)
  Model Deployment (API, Docker, Cloud)
  Model Optimization (Quantization, ONNX)
  MLOps Basics (MLflow, W&B)
     ↓
-PHASE 9: PROJECTS (Ongoing)
+STAGE 9: PROJECTS (Ongoing)
  Beginner, Intermediate & Advanced Projects
     ↓
-PHASE 10: ADVANCED SPECIALIZATION (2-3 months full-time)
+STAGE 10: ADVANCED SPECIALIZATION (2-3 months full-time)
  Reinforcement Learning
  Graph Neural Networks
  Audio Processing
@@ -178,7 +180,7 @@ PHASE 10: ADVANCED SPECIALIZATION (2-3 months full-time)
 
 **Note**: These are realistic estimates for comprehensive learning. The "Accelerated Path" below is for experienced programmers only.
 
-| Phase | Full-Time (30-40 hrs/week) | Part-Time (10-15 hrs/week) |
+| STAGE | Full-Time (30-40 hrs/week) | Part-Time (10-15 hrs/week) |
 |-------|---------------------------|----------------------------|
 | Foundation | 2-3 months | 4-6 months |
 | Data Science | 2-3 months | 4-6 months |
@@ -274,18 +276,18 @@ Learn → Practice → Build → Review → Improve
 
 Use this to track where you are:
 
-- [ ] Phase 0: Foundation
-- [ ] Phase 1: Data Fundamentals
-- [ ] Phase 2: ML Basics
-- [ ] Phase 3: Advanced ML
-- [ ] Phase 4: Unsupervised Learning
-- [ ] Phase 5: Deep Learning Fundamentals
-- [ ] Phase 6: Specialized Deep Learning
-- [ ] Phase 7: Generative AI & Modern LLMs
-- [ ] Phase 7.5: Essential Skills
-- [ ] Phase 8: Production & MLOps
-- [ ] Phase 9: Projects
-- [ ] Phase 10: Advanced Specialized Topics
+- [ ] STAGE 0: Foundation
+- [ ] STAGE 1: Data Fundamentals
+- [ ] STAGE 2: ML Basics
+- [ ] STAGE 3: Advanced ML
+- [ ] STAGE 4: Unsupervised Learning
+- [ ] STAGE 5: Deep Learning Fundamentals
+- [ ] STAGE 6: Specialized Deep Learning
+- [ ] STAGE 7: Generative AI & Modern LLMs
+- [ ] STAGE 7.5: Essential Skills
+- [ ] STAGE 8: Production & MLOps
+- [ ] STAGE 9: Projects
+- [ ] STAGE 10: Advanced Specialized Topics
 
 ##  Next Steps
 

@@ -1,4 +1,4 @@
-# Phase 15: Time Series Analysis
+# Module 15: Time Series Analysis
 
 Learn to analyze and forecast time-dependent data, from basic statistical methods to advanced deep learning approaches.
 
@@ -63,8 +63,8 @@ By the end of this module, you should be able to:
 ## Prerequisites
 
 Before starting this module, you should have completed:
-- Phase 1: Python for Data Science (NumPy, Pandas)
-- Phase 5: Deep Learning Fundamentals (Neural Networks Basics, Deep Learning Frameworks)
+- Module 01: Python for Data Science (NumPy, Pandas)
+- Module 05: Deep Learning Fundamentals (Neural Networks Basics, Deep Learning Frameworks)
 
 ## Time Estimate
 

@@ -32,8 +32,8 @@ By completing this project, you will learn to:
 ## Prerequisites
 
 Before starting, you should have completed:
-- Phase 2-6: Core ML concepts
-- Phase 21: Model Explainability (all topics)
+- Modules 02–06: Core ML concepts
+- Module 21: Model Explainability (all topics)
 - Understanding of tree-based models and neural networks
 - Basic knowledge of SHAP and LIME
 

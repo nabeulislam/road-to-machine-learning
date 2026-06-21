@@ -1,15 +1,15 @@
 # Intermediate Projects
 
-More challenging projects that combine multiple ML concepts and techniques.
+More challenging projects that combine multiple ML concepts and techniques. **These eight projects ship as detailed README briefs.** You build notebooks and scripts yourself.
 
-##  Prerequisites
+## Prerequisites
 
 Before starting these projects, you should have completed:
 - All Beginner Projects
-- Phase 5: Model Evaluation & Optimization
-- Phase 6: Ensemble Methods
-- Phase 7: Feature Engineering
-- Phase 8: Unsupervised Learning (for some projects)
+- Module 05: Model Evaluation & Optimization
+- Module 06: Ensemble Methods
+- Module 07: Feature Engineering
+- Module 08: Unsupervised Learning (for some projects)
 
 ## Advanced machine learning curriculum map (projects)
 

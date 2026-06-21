@@ -2,7 +2,7 @@
 
 This guide provides clear, role-specific learning paths for different careers in data science and machine learning. Each path includes recommended modules, projects, and resources tailored to the specific role.
 
-**Canonical phase order and the module 15 (time series) branch** match the root [README](../README.md#learning-path-overview): Phase 6 is vision & language (**11–12**); **15** is an optional parallel track, not part of that phase label.
+**Canonical stage order and the module 15 (time series) branch** match the root [README](../README.md#learning-path-overview). Stage 6 is vision and language (modules **11–12**). Module **15** is an optional parallel track, not part of that stage label.
 
 ## Table of Contents
 

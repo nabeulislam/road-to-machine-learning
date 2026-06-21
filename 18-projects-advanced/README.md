@@ -1,17 +1,17 @@
 # Advanced Projects
 
-Complex, production-ready projects that demonstrate mastery of ML concepts.
+Complex, production-ready projects that demonstrate mastery of ML concepts. **These nine projects ship as detailed README briefs and capstone-style specs.** You design and implement the full pipeline.
 
-##  Prerequisites
+## Prerequisites
 
 Before starting these projects, you should have completed:
 - All Intermediate Projects
-- Phase 9: Neural Networks Basics
-- Phase 10: Deep Learning Frameworks
-- Phase 11: Computer Vision (for CV projects)
-- Phase 12: Natural Language Processing (for NLP projects)
-- Phase 13: Model Deployment
-- Phase 14: MLOps Basics
+- Module 09: Neural Networks Basics
+- Module 10: Deep Learning Frameworks
+- Module 11: Computer Vision (for CV projects)
+- Module 12: Natural Language Processing (for NLP projects)
+- Module 13: Model Deployment
+- Module 14: MLOps Basics
 
 ## CNN and RNN curriculum map (projects)
 

@@ -1,4 +1,4 @@
-# Phase 10: Deep Learning Frameworks
+# Module 10: Deep Learning Frameworks
 
 Master TensorFlow/Keras and PyTorch for building deep learning models.
 
