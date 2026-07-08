@@ -13,7 +13,7 @@
 
 *Perfect for beginners • 26 Learning Modules • 23 Real-World Projects • Production-Ready Skills*
 
-[Start Here](START-HERE.md) • [Foundation & job readiness](FOUNDATION_AND_JOB_READINESS.md) • [Get Started](#getting-started) • [Learning Path](#learning-path) • [Projects](#stage-9-projects) • [System Design](system-design/README.md) • [Full-stack AI](resources/career_roadmap_guide.md#full-stack-ai-engineer) • [Contribute](#contributing)
+[Start Here](START-HERE.md) • [How to Use the Study Hub](HOW_TO_USE_THE_STUDY_HUB.md) • [Foundation & job readiness](FOUNDATION_AND_JOB_READINESS.md) • [Get Started](#getting-started) • [Learning Path](#learning-path) • [Projects](#stage-9-projects) • [System Design](system-design/README.md) • [Full-stack AI](resources/career_roadmap_guide.md#full-stack-ai-engineer) • [Contribute](#contributing)
 
 </div>
 
