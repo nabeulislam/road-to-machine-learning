@@ -49,7 +49,7 @@ Learn to analyze and forecast time-dependent data, from basic statistical method
 **Additional Resources:**
 - [Advanced Topics →](time-series-advanced-topics.md) - Multivariate time series, state space models, advanced deep learning
 - [Project Tutorial →](time-series-project-tutorial.md) - Step-by-step stock price forecasting project
-- [Quick Reference →](time-series-quick-reference.md) - Quick lookup guide for time series analysis**
+- [Quick Reference →](time-series-quick-reference.md) - Quick lookup guide for time series analysis
 
 ## Learning Objectives
 
@@ -63,8 +63,11 @@ By the end of this module, you should be able to:
 ## Prerequisites
 
 Before starting this module, you should have completed:
-- Module 01: Python for Data Science (NumPy, Pandas)
-- Module 05: Deep Learning Fundamentals (Neural Networks Basics, Deep Learning Frameworks)
+- Module 01: Python for Data Science (essential path: NumPy, Pandas)
+- Module 05: Model Evaluation (for proper splits) — or read evaluation section first
+- Module 09–10: only required for deep learning sections (LSTM/GRU)
+
+**Overlapping content:** This module overlaps with [intermediate project 6](../17-projects-intermediate/project-06-time-series-forecasting/README.md) and [advanced project 3](../18-projects-advanced/project-03-time-series-forecasting/README.md). Pick one path: [TIME_SERIES_LEARNING_PATH.md](../TIME_SERIES_LEARNING_PATH.md).
 
 ## Time Estimate
 

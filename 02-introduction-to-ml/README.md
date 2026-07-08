@@ -2,6 +2,8 @@
 
 Understand what machine learning is, how it works, and the different types of ML problems.
 
+> **Before Module 04 (classification):** Skim [Ethics in ML](../resources/ethics_in_ml.md) (30–45 min). Module 04 introduces fairness tooling — ethical framing helps you use it well.
+
 ##  What You'll Learn
 
 - What is Machine Learning?

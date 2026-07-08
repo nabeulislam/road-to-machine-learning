@@ -114,6 +114,8 @@ This repository provides a structured learning path for machine learning, organi
 
 ## Learning Path
 
+> **Follow stages, not folder numbers.** Folders `13–14` (deployment) appear before `19` (SQL) on disk — that is intentional for repo layout, not teaching order. Use [START-HERE.md](START-HERE.md) and [FOUNDATION_AND_JOB_READINESS.md](FOUNDATION_AND_JOB_READINESS.md). **SQL is Stage 1.5** for most job tracks.
+
 **Note on numbering**: Folder names use **Module 00–25** (for example `09-neural-networks-basics`). **Stages** in the table below are the recommended learning sequence. A stage can span several modules. They are not the same label. Some modules can be learned in parallel depending on your goals. See each module README for prerequisites.
 
 **Time Estimates**: Realistic completion time is **15–22 months** full-time (30–40 hrs/week) or **30–39 months** part-time (10–15 hrs/week) for full coverage of all 26 modules and 23 projects. See the [FAQ section](#common-questions-learning-guide) for a stage-by-stage breakdown.
@@ -128,14 +130,15 @@ Structured courses usually stack Python, then math and stats, then tabular ML, t
 |-------|---------|------------|----------------------|----------------------|
 | **Stage 0** | 00 | Foundation (Python, Math) | 2-3 months | 4-6 months |
 | **Stage 1** | 01 | Data Fundamentals | 2-3 months | 4-6 months |
+| **Stage 1.5** | 19 | SQL & Databases *(parallel with 1–2 for job tracks)* | 1-2 months | 2-3 months |
 | **Stage 2** | 02-05 | ML Basics | 2-3 months | 4-6 months |
 | **Stage 3** | 06-07 | Advanced ML | 1-2 months | 2-4 months |
 | **Stage 4** | 08 | Unsupervised Learning | 1 month | 2 months |
 | **Stage 5** | 09-10 | Deep Learning Fundamentals | 2 months | 4 months |
 | **Stage 6** | 11-12 | Vision & language (specialized DL) | 3-4 months | 6-8 months |
-| **Branch** | 15 | Time series (parallel to or after Stage 5–6) | 0.5-1 month | 1-2 months |
+| **Branch** | 15 | Time series ([pick one path](TIME_SERIES_LEARNING_PATH.md)) | 0.5-1 month | 1-2 months |
 | **Stage 7** | 25 | Generative AI & Modern LLMs | 1-2 months | 2-4 months |
-| **Stage 7.5** | 19-21 | Essential Skills (SQL, Imbalanced Data, Explainability) | 1-2 months | 2-4 months |
+| **Stage 7.5** | 20-21 | Imbalanced Data, Explainability | 1-2 months | 2-4 months |
 | **Stage 8** | 13-14 | Production & MLOps | 2-3 months | 4-6 months |
 | **Stage 9** | 16-18 | Projects (23 total) | 4-6 months | 8-12 months |
 | **Stage 10** | 22-24 | Advanced Specialized Topics (RL, GNNs, Audio) | 2-3 months | 4-6 months |

@@ -68,26 +68,27 @@ Install dependencies from the **repository root**. Individual project folders ma
 | Stage | Modules | Topic |
 |-------|---------|--------|
 | Stage 0 | 00 | Python, math, environment |
-| Stage 1 | 01 | NumPy, Pandas, visualization, EDA |
-| Stage 2 | 02–05 | Classical ML basics |
+| Stage 1 | 01 | NumPy, Pandas, visualization, EDA ([essential vs optional](01-python-for-data-science/README.md#essential-path-vs-optional-depth)) |
+| **Stage 1.5** | **19** | **SQL & databases** — parallel with Stage 1–2 for analyst, DS, and ML engineer tracks |
+| Stage 2 | 02–05 | Classical ML basics — read [ethics primer](resources/ethics_in_ml.md) before Module 04 |
 | Stage 3 | 06–07 | Ensembles, feature engineering |
 | Stage 4 | 08 | Unsupervised learning |
 | Stage 5 | 09–10 | Neural networks, PyTorch/TensorFlow |
 | Stage 6 | 11–12 | Computer vision, NLP |
 | Stage 7 | 25 | Generative AI and LLMs |
-| Stage 7.5 | 19–21 | SQL, imbalanced data, explainability *(analysts: do 19 after Stage 1)* |
+| Stage 7.5 | 20–21 | Imbalanced data, explainability *(SQL is Stage 1.5, not here)* |
 | Stage 8 | 13–14 | Deployment, MLOps |
 | Stage 9 | 16–18 | Projects (start beginner projects after Stage 2) |
 | Stage 10 | 22–24 | RL, graphs, audio (electives) |
 
-Module **15** (time series) fits after Stage 5 or 6 depending on your goals.
+**Time series:** Module **15**, intermediate project 6, and advanced project 3 overlap — pick **one** path: [TIME_SERIES_LEARNING_PATH.md](TIME_SERIES_LEARNING_PATH.md).
 
 ## Projects: what to expect
 
 | Tier | Delivery | Notes |
 |------|----------|--------|
 | Beginner (6) | Code included | Runnable scripts and notebooks in most projects |
-| Intermediate (8) | Brief + starter guidance | README instructions. Add your own notebooks |
+| Intermediate (8) | Brief + `starter.py` skeleton | README + runnable scaffold in each `project-*/` folder |
 | Advanced (9) | Brief + starter guidance | README instructions. Capstone-style builds |
 
 ## Where to go next
@@ -96,4 +97,5 @@ Module **15** (time series) fits after Stage 5 or 6 depending on your goals.
 - First project walkthrough: [GETTING_STARTED.md](GETTING_STARTED.md)
 - Visual roadmap: [LEARNING_ROADMAP.md](LEARNING_ROADMAP.md)
 - Foundation gates & job market: [FOUNDATION_AND_JOB_READINESS.md](FOUNDATION_AND_JOB_READINESS.md)
+- Time series (pick one path): [TIME_SERIES_LEARNING_PATH.md](TIME_SERIES_LEARNING_PATH.md)
 - Study Hub (read lessons in browser): [Nabid In Motion](https://github.com/NabidAlam/nabidinmotion)

@@ -221,6 +221,10 @@ Each module includes:
 
 ---
 
+## Exit gate (Stage 0)
+
+Before starting Module 01, complete [Gate A](../FOUNDATION_AND_JOB_READINESS.md#gate-a--after-module-00-stage-0): Python fluency, Big-O, linear algebra basics, stats, gradient intuition, and the movie-script or NumPy NN capstone.
+
 **Next Module:** [01-python-for-data-science](../01-python-for-data-science/README.md)
 
 ---

@@ -4,6 +4,8 @@ A visual representation of your ML learning journey from zero to hero.
 
 **Numbering:** **Stages** below are the recommended learning order. **Module numbers** (00–25) are folder names on disk. Module 09 is not Stage 9. See [START-HERE.md](START-HERE.md).
 
+**Job-market fix:** For analyst and data scientist roles, treat **Module 19 (SQL) as Stage 1.5** — parallel with Stage 1–2, not after GenAI. Full exit gates: [FOUNDATION_AND_JOB_READINESS.md](FOUNDATION_AND_JOB_READINESS.md).
+
 ## Learning Path Overview
 
 ```
@@ -20,6 +22,9 @@ STAGE 1: DATA FUNDAMENTALS (2-3 months full-time, 4-6 months part-time)
  NumPy, Pandas & Polars
  Data Visualization
  Exploratory Data Analysis
+    ↓
+STAGE 1.5: SQL & DATABASES (parallel with Stage 1–2 for job tracks)
+ Module 19 — queries, joins, window functions
     ↓
 STAGE 2: ML BASICS (2-3 months full-time, 4-6 months part-time)
  Introduction to ML
@@ -42,7 +47,7 @@ STAGE 5: DEEP LEARNING FUNDAMENTALS (2 months full-time, 4 months part-time)
 STAGE 6: SPECIALIZED DEEP LEARNING (3-4 months full-time, 6-8 months part-time)
  Computer Vision
  Natural Language Processing
- Time Series Analysis (Module 15. Optional branch, can follow Stage 5–6)
+ Time Series (Module 15 OR project — see TIME_SERIES_LEARNING_PATH.md)
     ↓
 STAGE 7: GENERATIVE AI & MODERN LLMs (1-2 months full-time, 2-4 months part-time)
  Prompt Engineering
@@ -50,10 +55,10 @@ STAGE 7: GENERATIVE AI & MODERN LLMs (1-2 months full-time, 2-4 months part-time
  LLM Agents & Multi-Agent Systems
     ↓
 STAGE 7.5: ESSENTIAL SKILLS (1-2 months full-time, 2-4 months part-time)
- DSA in Python (Interview Patterns)
- SQL & Databases
- Imbalanced Data
- Model Explainability
+ Imbalanced Data (Module 20)
+ Model Explainability (Module 21)
+ DSA in Python (resources/dsa_course_python.md — interview prep)
+ Note: SQL is Stage 1.5 (Module 19), not here
     ↓
 STAGE 8: PRODUCTION & MLOPS (2-3 months full-time, 4-6 months part-time)
  Model Deployment (API, Docker, Cloud)
@@ -287,6 +292,7 @@ Use this to track where you are:
 
 - [ ] STAGE 0: Foundation
 - [ ] STAGE 1: Data Fundamentals
+- [ ] STAGE 1.5: SQL & Databases (Module 19 — parallel if on analyst/DS track)
 - [ ] STAGE 2: ML Basics
 - [ ] STAGE 3: Advanced ML
 - [ ] STAGE 4: Unsupervised Learning
