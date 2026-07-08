@@ -212,6 +212,42 @@ Create professional data visualizations and dashboards with Tableau.
 
 **[Complete Guide →](11-tableau-visualization.md)**
 
+## Essential path vs optional depth
+
+Module 01 has **15 lessons** — too much to read linearly before starting ML. Use this split:
+
+### Essential path (~4–6 weeks) — required before Module 02
+
+| Order | Lesson | Why |
+|-------|--------|-----|
+| 1 | [01-numpy.md](01-numpy.md) | Numerical foundation for all ML |
+| 2 | [02-pandas.md](02-pandas.md) | Data manipulation |
+| 3 | [03-visualization.md](03-visualization.md) | Communicate findings |
+| 4 | [04-exploratory-data-analysis.md](04-exploratory-data-analysis.md) | Systematic EDA before modeling |
+| 5 | [05-data-sources-and-integration.md](05-data-sources-and-integration.md) | APIs, files, basic SQL hooks |
+| 6 | [python-for-data-science-project-tutorial.md](python-for-data-science-project-tutorial.md) | End-to-end practice |
+
+**Parallel (Stage 1.5):** Start [Module 19 SQL](../19-sql-database-fundamentals/README.md) after lesson 2–3 if you target analyst or data scientist roles.
+
+**After first EDA project:** Read [Stakeholder Communication](../resources/stakeholder_communication.md) (30 min) before presenting charts to non-technical audiences.
+
+### Optional depth — revisit when a project needs them
+
+| Lesson | When to study |
+|--------|----------------|
+| [06-regular-expressions-text-processing.md](06-regular-expressions-text-processing.md) | NLP or messy text columns |
+| [07-advanced-data-wrangling.md](07-advanced-data-wrangling.md) | Complex pivots / reshaping |
+| [08-working-with-dates-times.md](08-working-with-dates-times.md) | Time series or datetime-heavy data |
+| [09-streamlit-dashboards.md](09-streamlit-dashboards.md) | Dashboard portfolio project |
+| [10-flask-web-development.md](10-flask-web-development.md) | Before Module 13 deployment |
+| [11-tableau-visualization.md](11-tableau-visualization.md) | BI analyst track |
+| [python-for-data-science-advanced-topics.md](python-for-data-science-advanced-topics.md) | Polars/Dask at scale |
+| [python-for-data-science-quick-reference.md](python-for-data-science-quick-reference.md) | Cheat sheet anytime |
+
+### Exit gate (Stage 1)
+
+Before Module 02, you should pass [Gate B in FOUNDATION_AND_JOB_READINESS.md](../FOUNDATION_AND_JOB_READINESS.md#gate-b--after-module-01-stage-1).
+
 ##  Learning Objectives
 
 By the end of this phase, you should be able to:

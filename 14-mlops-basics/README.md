@@ -73,6 +73,20 @@ By the end of this module, you should be able to:
 3. **CI/CD Pipeline**: Automate testing and deployment
 4. **Model Registry**: Manage model versions
 
+## Hands-on lab checklist (minimum for interviews)
+
+Complete these **in order** after reading the main guide. Each should produce a GitHub artifact.
+
+| # | Lab | Deliverable | Guide section / resource |
+|---|-----|-------------|--------------------------|
+| 1 | Log 3 sklearn runs in MLflow (params + metrics + artifact) | `mlruns/` or remote tracking URI screenshot | [mlops.md](mlops.md) experiment tracking |
+| 2 | Version a dataset with DVC `add` + `push` (or local remote) | `dvc.yaml` + `.dvc` file in repo | DVC docs + module project tutorial |
+| 3 | Register one model in MLflow Model Registry (Staging) | Registry screenshot or API call log | Model registry section |
+| 4 | GitHub Actions: run `pytest` on PR (even one trivial test) | Green CI badge or workflow log | CI/CD section |
+| 5 | Dockerize a training script from Module 13 | `Dockerfile` + `docker build` success | [deployment.md](../13-model-deployment/deployment.md) + [docker_tutorial.md](../resources/docker_tutorial.md) |
+
+**Stretch:** Wire W&B or Great Expectations on the same project — links in [mlops-advanced-topics.md](mlops-advanced-topics.md).
+
 ##  Key Concepts
 
 - **Reproducibility**: Same inputs = same outputs

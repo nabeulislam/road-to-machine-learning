@@ -1,6 +1,8 @@
 # Intermediate Projects
 
-More challenging projects that combine multiple ML concepts and techniques. **These eight projects ship as detailed README briefs.** You build notebooks and scripts yourself.
+More challenging projects that combine multiple ML concepts and techniques. Each project includes a **`starter.py` scaffold** — run it, then replace `TODO` sections with your implementation.
+
+> **Starter usage:** `cd project-XX-name` → download dataset per README → `python starter.py`
 
 ## Prerequisites
 

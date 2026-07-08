@@ -2,6 +2,8 @@
 
 Predict which customers will leave a service (churn prediction).
 
+**Starter code:** Run `starter.py` in this folder after downloading the dataset (see Dataset below).
+
 ## Difficulty
 Intermediate
 

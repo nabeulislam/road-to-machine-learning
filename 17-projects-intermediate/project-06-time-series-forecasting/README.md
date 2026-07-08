@@ -2,6 +2,10 @@
 
 Forecast future values in a time series (sales, stock prices, etc.).
 
+> **Pick one path:** This project overlaps with [Module 15](../../15-time-series-analysis/README.md) and [advanced project 3](../../18-projects-advanced/project-03-time-series-forecasting/README.md). See [TIME_SERIES_LEARNING_PATH.md](../../TIME_SERIES_LEARNING_PATH.md).
+
+**Starter code:** Run `starter.py` after placing data in `data/`.
+
 ## Difficulty
 Intermediate
 

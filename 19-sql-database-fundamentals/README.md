@@ -2,6 +2,8 @@
 
 Master SQL and database management for data science.
 
+> **Teaching stage:** This is **Stage 1.5** in the recommended path — start in **parallel with Module 01–02** if you target data analyst, data scientist, ML engineer, or BI roles. Do not wait until after GenAI (Module 25). See [FOUNDATION_AND_JOB_READINESS.md](../FOUNDATION_AND_JOB_READINESS.md).
+
 ## What You'll Learn
 
 - Database Fundamentals

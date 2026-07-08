@@ -2,6 +2,8 @@
 
 Understand what machine learning is, how it works, and the different types of ML problems.
 
+> **Before Module 04 (classification):** Skim [Ethics in ML](../resources/ethics_in_ml.md) (30–45 min). Module 04 introduces fairness tooling — ethical framing helps you use it well.
+
 ##  What You'll Learn
 
 - What is Machine Learning?
@@ -67,6 +69,18 @@ Understand what machine learning is, how it works, and the different types of ML
 - Version control your code and data
 
 **[Complete Detailed Guide →](introduction-to-ml.md)**
+
+## Job-ready checkpoint (before Modules 03–05)
+
+You are ready for **supervised learning** (regression and classification) when you can:
+
+- [ ] Distinguish regression, classification, and clustering for real scenarios
+- [ ] Sketch the ML workflow from business question to evaluation
+- [ ] Complete the [First ML Project Tutorial](first-ml-project-tutorial.md) (Iris) **without** only copy-pasting
+- [ ] Explain train/test split and why leakage invalidates metrics
+- [ ] Start or continue a [beginner portfolio project](../16-projects-beginner/README.md)
+
+**Analyst / data scientist track:** Begin [Module 19 SQL](../19-sql-database-fundamentals/README.md) in parallel if you have not already. See [Foundation & Job Market Readiness](../FOUNDATION_AND_JOB_READINESS.md).
 
 ### Additional Resources
 

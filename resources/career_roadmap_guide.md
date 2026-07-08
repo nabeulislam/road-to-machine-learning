@@ -2,7 +2,7 @@
 
 This guide provides clear, role-specific learning paths for different careers in data science and machine learning. Each path includes recommended modules, projects, and resources tailored to the specific role.
 
-**Canonical stage order and the module 15 (time series) branch** match the root [README](../README.md#learning-path-overview). Stage 6 is vision and language (modules **11–12**). Module **15** is an optional parallel track, not part of that stage label.
+**Canonical stage order and the module 15 (time series) branch** match the root [README](../README.md#learning-path-overview). Stage 6 is vision and language (modules **11–12**). Module **15** is an optional parallel track — see [TIME_SERIES_LEARNING_PATH.md](../TIME_SERIES_LEARNING_PATH.md). **SQL is Stage 1.5 (module 19)**, not Stage 7.5.
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ This guide provides clear, role-specific learning paths for different careers in
 | **Data Fundamentals** | 01 | NumPy, Pandas, Visualization, EDA | 3-4 months |
 | **SQL & Databases** | 19 | SQL, Database Fundamentals, NoSQL basics | 2-3 months |
 | **Essential Skills** | 20, 21 | Imbalanced Data, Model Explainability | 1-2 months |
-| **Total** | **4 modules** | **Complete Path** | **8-12 months** |
+| **Total** | **5 modules** | **Complete Path** | **8-12 months** |
 
 ### Essential Modules
 
